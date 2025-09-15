@@ -5,3 +5,4 @@ num2 = int(input('Digite Outro: '))
 
 print(f'a soma de {num1} + {num2} = {num1 + num2}')
 
+#isso aqui é um comentário
