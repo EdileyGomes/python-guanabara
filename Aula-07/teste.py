@@ -1,3 +1,6 @@
+from curses.ascii import isalpha
+
+
 def inicio ():
     n = float(input('Digite um número: '))
     n2 = float(input('Digite outro número: '))
