@@ -8,7 +8,7 @@ def inicio ():
     def alternativa():
         alt = input('DESEJA CONTINUAR?\nDIGITE [S], PARA CONTINUAR;\nE DIGITE [N], PARA NÃO CONTINUAR!').upper()
         if alt == 'N':
-            print('Paramos por aqui, Muito Obrigado, e volte sempre!')
+            print('Paramos por aqui, Muito Obrigado, e volte semprae!')
         elif alt == 'S':
             print('OK, VAMOS CONTINUAR!!!')
             inicio()
