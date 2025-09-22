@@ -1,8 +1,14 @@
-import emoji
+from emoji import emojize
 
-n =int(input(emoji.emojize('Olá, mundo 🌎: ', language='alias')))
+n2 = int(input(emojize('Olá, mundo 🌎: ', language='alias')))
 
-print(n)
+n = int(input(emojize('Olá, mundo 🌎: ', language='alias')))
+
+n3 = int(input(emojize('Olá, mundo 🌎', language='alias')))
+
+n4 = int(input(emojize('Mais um EMOJI para a conta: 😎', language='alias')))
+
+print(n, n2, n3)
 
 
 num = float(input('Digite o valor em metros: '))
