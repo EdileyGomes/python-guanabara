@@ -6,6 +6,8 @@ import emoji
 print(emoji.emojize("Olá mundo :smile:", language='alias'))
 print(emoji.emojize("Eu amo Python :heart:", language='alias'))
 
+print(math.factorial(3))
+
 
 num = int(input('Digite um número: '))
 
