@@ -19,3 +19,8 @@ print(f'Esse é a raiz quadrada do valor que você digitou usando a biblioteca M
 
 num = random.randint(1, 10)
 print(num)
+
+
+
+
+
